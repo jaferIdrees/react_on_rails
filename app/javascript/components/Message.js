@@ -1,7 +1,8 @@
 import React from 'react';
 
-export default function(props){
-    return(
-        <p>{props.message}</p>
-    )
+export default function Message(props) {
+  const message = { ...props };
+  return (
+    <p>{message}</p>
+  );
 }

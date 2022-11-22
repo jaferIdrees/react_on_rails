@@ -1,24 +1,62 @@
-# README
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![Ruby](https://img.shields.io/badge/ruby-%23CC342D.svg?style=for-the-badge&logo=ruby&logoColor=white) ![Rails](https://img.shields.io/badge/rails-%23CC0000.svg?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 
-Things you may want to cover:
+# React On Rails
 
-* Ruby version
+> This is a demonstration project how to use React as a front-end for Rails prject
 
-* System dependencies
+## Built With
 
-* Configuration
+- Major languages: React, ruby on rails
 
-* Database creation
 
-* Database initialization
+## Live Demo 
 
-* How to run the test suite
+[comming soon]()
 
-* Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+## Getting Started
 
-* ...
+-
+
+### Prerequisites
+- ruby version (3.0) or above
+- Rails 7.0 or above
+- Postgresql db
+
+### Setup & Installation
+- Clone the repo (https://github.com/jaferIdrees/blog_app.git)
+- run (bundle install) command
+### Usage
+- on your console run (./bin/dev)
+- on the browser navigate to ('http://localhost:3000/')
+- Enjoy ...........
+
+
+## Author
+
+👤 **Ja'fer Yousef**
+
+- GitHub: [@githubhandle](https://github.com/jaferIdrees)
+- Twitter: [@twitterhandle](https://twitter.com/jafel_l)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/jaferll)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/jaferIdrees/blog_app/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+
+- Microverse team
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
