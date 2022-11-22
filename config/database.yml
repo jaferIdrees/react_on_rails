@@ -1,0 +1,33 @@
+# PostgreSQL. Versions 9.3 and up are supported.
+#
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  # For details on connection pooling, see Rails configuration guide
+  # https://guides.rubyonrails.org/configuring.html#database-pooling
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+  
+
+development:
+  <<: *default
+  database: react_on_rails_development
+
+  
+test:
+  <<: *default
+  database: react_on_rails_test
+
+
+#   production:
+#     url: <%= ENV["MY_APP_DATABASE_URL"] %>
+#
+# Read https://guides.rubyonrails.org/configuring.html#configuring-a-database
+# for a full overview on how database connection configuration can be specified.
+#
+production:
+  <<: *default
+  url: <%= ENV['DATABASE_URL'] %>
+  database: react_on_rails_production
+  username: react_on_rails
+  password: <%= ENV["REACT_ON_RAILS_DATABASE_PASSWORD"] %>
